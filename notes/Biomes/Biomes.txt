@@ -1,0 +1,16 @@
+STAGE 1: BIOMES
+
+The goal of this stage is to determine what biome should exist where.
+Each biome will have a list of possible neighboring biomes that it can be
+
+For example, say we are trying to build a new plot of land.  Its neighbors currently are OCEAN and GRASSLAND
+the odds that the tile is any one of those things might be something like
+75% GRASSLAND
+20% WATER
+3% SNOW
+2% DESERT
+
+We should be able to add our own biases toward certain things to get the kind of map we want.
+
+Grasslands and oceans are the most variable to change biomes as they have the most options.\
+Loot tables for the biomes will likely be necessary
